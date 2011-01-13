@@ -1,8 +1,30 @@
-﻿<h1>
+﻿<style>
+    .contatos
+    {
+        list-style-type: none;
+        padding-left: 123px;
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .contatos li
+    {
+        display: inline;
+    }
+    .contatos li span
+    {
+        font-weight: bold;
+    }
+    .contatos li a, .contatos li a:active, .contatos li a:visited
+    {
+        text-decoration: none;
+        color: #000;
+    }
+</style>
+<h1>
     Palestrantes</h1>
 <ul class="palestrantes">
     <li>
-        <img src='@Url.Content("~/images/palestrantes/nophoto.jpg")' alt="André Baltieri" />
+        <img src='@Url.Content("~/images/palestrantes/andre_baltieri.jpg")' alt="André Baltieri" />
         <h2>
             André Baltieri</h2>
         <p>
@@ -13,6 +35,7 @@
             de aplicações web em ASP.NET/C#. Ministra treinamentos e consultorias sobre a plataforma
             .NET.
         </p>
+        @Html.Partial("_ContatosPalestrante", new[] { "weblogs.asp.net/andrebaltieri/", "andrebaltieri@hotmail.com", "andrebaltieri" })
     </li>
     <hr />
     <li>
@@ -28,6 +51,7 @@
             e workshops. Possui os seguintes títulos de Certificação Microsoft: MCP, MCAD, MCSD,
             MCTS, MCPD. Recentemente foi nomeado pela Microsoft como MVP ASP.NET.
         </p>
+        @Html.Partial("_ContatosPalestrante", new[] { "brunokenj.net/blog/", "contato@brunokenj.net", "brunokenj" })
     </li>
     <hr />
     <li>
@@ -41,6 +65,7 @@
             pela faculdade Fabrai no curso de Tecnologia em Processamento de Dados e aluno do
             MBA de Gestão Empresarial pelo Núcleo de Pós Graduação Pitágoras.
         </p>
+        @Html.Partial("_ContatosPalestrante", new[] { "douglasaguiar.me/", "", "douglasaguiar" })
     </li>
     <hr />
     <li>
@@ -59,6 +84,7 @@
             Scrum Developer e Professional ScrumMaster para o Brasil, e os oferece no site www.scrumdev.com.br.
             Seu blog é parte do blog da Lambda3. Seu twitter @@giovannibassi.
         </p>
+        @Html.Partial("_ContatosPalestrante", new[] { "blog.lambda3.com.br/L3/giovannibassi/", "", "giovannibassi" })
     </li>
     <hr />
     <li>
@@ -71,6 +97,7 @@
             ativo dos grupos de usuários: Austin .Net User Group, Agile Austin, Lean Software
             Austin e DotNetArchitects.
         </p>
+        @Html.Partial("_ContatosPalestrante", new[] { "", "", "pedroreys" })
     </li>
     <hr />
     <li>
@@ -83,8 +110,9 @@
             ministra cursos e realiza consultoria sobre boas práticas de desenvolvimento de
             software, pós-graduado em gerenciamento de projetos, professor universitário, certificado
             em Professional Scrum Developer, Certified Scrum Master, Certified Scrum Product
-            Owner. Blog:http://www.cavalcante.net | twitter: @@vcavalcante
+            Owner.
         </p>
+        @Html.Partial("_ContatosPalestrante", new[] { "cavalcante.net", "victor@cavalcante", "vcavalcante" })
     </li>
     <hr />
     <li>
@@ -92,11 +120,12 @@
         <h2>
             Vinicius Quaiato</h2>
         <p>
-            Apaixonado por desenvolvimento de software gosta de boas práticas de arquitetura
-            e testes e talvez por isso goste tanto de ASP.NET MVC. Atualmente trabalho na Gonow
-            Tecnologia coordenando a área de desenvolvimento em plataforma .NET. Escreve para
-            a maior revista de .NET do país, mantém um blog focado em plataforma .NET e enche
-            o saco no twitter.
+            Idealizador e organizador do MVC Summit. Apaixonado por desenvolvimento de software
+            gosta de boas práticas de arquitetura e testes e talvez por isso goste tanto de
+            ASP.NET MVC. Atualmente trabalha na Gonow Tecnologia coordenando a área de desenvolvimento
+            em plataforma .NET. Escreve para a maior revista de .NET do país, mantém um blog
+            focado em plataforma .NET e enche o saco no twitter.
         </p>
+        @Html.Partial("_ContatosPalestrante", new[] { "viniciusquaiato.com", "vinicius.quaiato@gmail.com", "vquaiato" })
     </li>
 </ul>

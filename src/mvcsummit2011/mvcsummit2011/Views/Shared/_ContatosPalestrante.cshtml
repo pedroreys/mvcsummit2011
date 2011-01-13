@@ -1,0 +1,12 @@
+﻿@model string[]
+<ul class="contatos">
+    @if (!string.IsNullOrWhiteSpace(Model[0]))
+    { 
+        <li><span>Site: </span><a href="http://@Model[0]">http://@Model[0]</a> | </li>
+    }
+    @if (!string.IsNullOrWhiteSpace(Model[1]))
+    { 
+        <li><span>Email: </span>@Model[1] | </li>
+    }
+    <li><span>Twitter: </span><a href="http://twitter.com/@Model[2]">@@@Model[2]</a></li>
+</ul>
