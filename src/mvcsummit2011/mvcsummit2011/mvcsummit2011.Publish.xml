@@ -3,24 +3,24 @@
   <publishProfile publishUrl="C:\Users\vinicius.quaiato\Desktop\mvcsummit\publish" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
     <file relUrl="bin/System.Web.Extensions.dll" publishTime="03/18/2010 19:31:26" />
     <file relUrl="bin/WebMatrix.Data.xml" publishTime="12/19/2010 23:59:38" />
-    <file relUrl="Views/MVCSummit/Grade.cshtml" publishTime="01/13/2011 16:11:08" />
+    <file relUrl="Views/MVCSummit/Grade.cshtml" publishTime="01/18/2011 19:38:59" />
     <file relUrl="Scripts/jquery-1.4.4-vsdoc.js" publishTime="01/13/2011 16:11:08" />
     <file relUrl="Global.asax" publishTime="01/13/2011 16:11:08" />
     <file relUrl="Views/_ViewStart.cshtml" publishTime="01/13/2011 16:11:08" />
-    <file relUrl="Views/Shared/_ContatosPalestrante.cshtml" publishTime="01/13/2011 16:11:08" />
+    <file relUrl="Views/Shared/Grade2.cshtml" publishTime="01/18/2011 19:45:16" />
     <file relUrl="images/palestrantes/vinicius_quaiato.jpg" publishTime="01/13/2011 16:11:08" />
-    <file relUrl="bin/System.Web.Helpers.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="Views/Shared/Error.cshtml" publishTime="01/13/2011 16:11:08" />
+    <file relUrl="bin/System.Web.Helpers.xml" publishTime="12/19/2010 23:59:38" />
     <file relUrl="Scripts/jquery-1.4.4.js" publishTime="01/13/2011 16:11:08" />
     <file relUrl="images/mvcsummit_logo.png" publishTime="01/13/2011 16:11:08" />
-    <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="01/05/2011 15:45:38" />
+    <file relUrl="Content/Site.css" publishTime="01/18/2011 19:23:15" />
     <file relUrl="bin/System.Web.WebPages.Deployment.xml" publishTime="12/20/2010 10:52:36" />
-    <file relUrl="images/palestrantes/douglas_aguiar.jpg" publishTime="01/13/2011 16:11:08" />
     <file relUrl="Views/MVCSummit/OEvento.cshtml" publishTime="01/13/2011 16:11:08" />
     <file relUrl="Scripts/jquery-1.4.4.min.js" publishTime="01/13/2011 16:11:08" />
     <file relUrl="bin/System.Web.Routing.dll" publishTime="03/18/2010 19:31:26" />
     <file relUrl="bin/System.Web.WebPages.Razor.xml" publishTime="12/20/2010 10:52:36" />
     <file relUrl="bin/System.Web.WebPages.dll" publishTime="01/05/2011 15:45:38" />
+    <file relUrl="bin/WebMatrix.Data.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="bin/System.Web.Razor.xml" publishTime="12/20/2010 10:52:36" />
     <file relUrl="bin/System.Web.WebPages.xml" publishTime="12/19/2010 23:59:38" />
     <file relUrl="bin/System.Web.Mvc.dll" publishTime="01/05/2011 17:42:16" />
@@ -31,23 +31,25 @@
     <file relUrl="Views/MVCSummit/Palestrantes.cshtml" publishTime="01/18/2011 16:45:15" />
     <file relUrl="Views/Shared/_Layout.cshtml" publishTime="01/18/2011 18:31:39" />
     <file relUrl="images/palestrantes/andre_baltieri.JPG" publishTime="01/13/2011 16:11:08" />
-    <file relUrl="bin/mvcsummit2011.pdb" publishTime="01/18/2011 16:45:22" />
-    <file relUrl="bin/mvcsummit2011.dll" publishTime="01/18/2011 16:45:22" />
+    <file relUrl="Views/Shared/Grade1.cshtml" publishTime="01/18/2011 19:45:22" />
+    <file relUrl="bin/mvcsummit2011.pdb" publishTime="01/18/2011 19:51:01" />
+    <file relUrl="Views/MVCSummit/Index.cshtml" publishTime="01/18/2011 19:49:15" />
+    <file relUrl="bin/mvcsummit2011.dll" publishTime="01/18/2011 19:51:01" />
     <file relUrl="bin/System.Web.Razor.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="Views/Shared/_Contato.cshtml" publishTime="01/13/2011 16:11:08" />
     <file relUrl="bin/WebMatrix.WebData.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="bin/System.Web.WebPages.Deployment.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="01/05/2011 15:45:38" />
-    <file relUrl="bin/WebMatrix.Data.dll" publishTime="01/05/2011 15:45:38" />
+    <file relUrl="Views/Shared/_ContatosPalestrante.cshtml" publishTime="01/13/2011 16:11:08" />
     <file relUrl="bin/System.Web.Mvc.xml" publishTime="01/04/2011 15:29:22" />
-    <file relUrl="Content/Site.css" publishTime="01/18/2011 18:39:32" />
+    <file relUrl="bin/System.Web.Helpers.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="images/palestrantes/pedro_reys.jpg" publishTime="01/18/2011 15:51:26" />
     <file relUrl="images/palestrantes/nophoto.jpg" publishTime="01/13/2011 16:11:08" />
-    <file relUrl="Views/MVCSummit/Index.cshtml" publishTime="01/18/2011 18:57:45" />
+    <file relUrl="images/palestrantes/douglas_aguiar.jpg" publishTime="01/13/2011 16:11:08" />
     <file relUrl="Views/MVCSummit/Contato.cshtml" publishTime="01/13/2011 16:11:08" />
-    <file relUrl="Scripts/main.js" publishTime="01/13/2011 16:11:08" />
+    <file relUrl="Scripts/main.js" publishTime="01/18/2011 19:32:13" />
     <file relUrl="Views/Web.config" publishTime="01/13/2011 16:11:08" />
-    <file relUrl="bin/System.Web.Helpers.xml" publishTime="12/19/2010 23:59:38" />
+    <file relUrl="bin/System.Web.WebPages.Razor.dll" publishTime="01/05/2011 15:45:38" />
     <file relUrl="Web.config" publishTime="01/18/2011 16:53:32" />
   </publishProfile>
 </publishData>
