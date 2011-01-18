@@ -4,6 +4,8 @@ $(function () {
     $("tr:not(.descricaoPalestra)").click(click_exibeDescricao);
     $("tr.descricaoPalestra").click(function () { $(this).prev("tr").click(); });
     $("#trilhas a").click(click_trilhas);
+
+    $("#trilhas a[href=#trilha1]").click();
 })
 
 function click_exibeDescricao(obj) {
