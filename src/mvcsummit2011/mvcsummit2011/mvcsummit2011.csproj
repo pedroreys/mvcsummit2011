@@ -96,11 +96,14 @@
     <Content Include="Content\Site.css" />
     <Content Include="images\arrows.png" />
     <Content Include="images\mvcsummit_logo.png" />
+    <Content Include="images\palestrantes\alexandre_tarifa.jpg" />
     <Content Include="images\palestrantes\andre_baltieri.JPG" />
+    <Content Include="images\palestrantes\cleber_dantas.jpg" />
     <Content Include="images\palestrantes\douglas_aguiar.jpg" />
     <Content Include="images\palestrantes\giovanni_bassi.jpg" />
     <Content Include="images\palestrantes\nophoto.jpg" />
     <Content Include="images\palestrantes\pedro_reys.jpg" />
+    <Content Include="images\palestrantes\victor_cavalcante.jpg" />
     <Content Include="images\palestrantes\vinicius_quaiato.jpg" />
     <Content Include="Scripts\main.js" />
     <Content Include="Web.config">
