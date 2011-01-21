@@ -28,5 +28,9 @@ namespace mvcsummit2011.Controllers
         {
             return View();
         }
+        public  ActionResult Inscricoes()
+        {
+            return View();
+        }
     }
 }
