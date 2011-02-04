@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Eventbrite">
+      <HintPath>..\..\..\lib\Eventbrite\Eventbrite.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
     </Reference>
@@ -97,6 +100,12 @@
     <Compile Include="WebRoles.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\close.png" />
+    <Content Include="Content\Images\google.png" />
+    <Content Include="Content\Images\ical.png" />
+    <Content Include="Content\Images\icon_add.gif" />
+    <Content Include="Content\Images\wlive.png" />
+    <Content Include="Content\Styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="images\arrows.png" />

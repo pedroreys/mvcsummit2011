@@ -1,8 +1,11 @@
-﻿@{
+﻿@using EventbriteApi.Widgets;
+@{
     ViewBag.Title = "Inscricoes";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<h1>Inscrições</h1>
-<p><strong>Aguarde!</strong> As inscrições serão abertas em breve.</p>
-
+<h1>
+    Inscrições</h1>
+<p>
+    <strong>Agora sim!</strong> Faça sua inscrição gratuita para o MVC Summit 2011.</p>
+<div style="width: 80%;margin:auto;">
+    @Eventbrite.GetTicketWidget(eventId: 1241470271, height: 400)
+</div>
