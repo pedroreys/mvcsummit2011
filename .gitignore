@@ -13,4 +13,4 @@ license.txt
 lib/*/*.xml
 
 publish/
-*ViewStart.cshtml
+_ViewStart.cshtml
