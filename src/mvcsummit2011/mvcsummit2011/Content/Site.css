@@ -296,3 +296,17 @@ td.exibeDescricao span.oculta
     right: -5px;
     top: 15px;
 }
+
+.inscricoes
+{
+    background:#009933;
+    color:#fff;
+    padding:10px;
+    font-size:32px;
+    font-weight:bold;
+    display:block;
+    width:330px;
+    text-align:center;
+    margin:auto;
+    text-decoration:none;
+}

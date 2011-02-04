@@ -11,6 +11,7 @@
     MVC. Do básico ao avançado, são conteúdos para todos níveis e perfis.</p>
 
 <p>@Html.ActionLink("Confira aqui", "Palestrantes") quem são os 11 palestrantes do evento.</p>
-<p>
-    <strong><u>Em breve as inscrições serão abertas.</u></strong></p>
+
+<a class="inscricoes" href='@Url.Action("Inscricoes")'>Faça já sua inscrição!</a>
+
 @Html.Partial("_Contato")
