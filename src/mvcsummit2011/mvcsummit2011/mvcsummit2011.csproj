@@ -109,6 +109,12 @@
     <Content Include="Content\Styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\apoiadores\gonow_tecnologia.gif" />
+    <Content Include="images\apoiadores\lambda3_MENOR.png" />
+    <Content Include="images\apoiadores\LocaWebLogo.jpg" />
+    <Content Include="images\apoiadores\msdn_logo.png" />
+    <Content Include="images\apoiadores\TechSmith.jpg" />
+    <Content Include="images\apoiadores\tekpub_log.png" />
     <Content Include="images\arrows.png" />
     <Content Include="images\mvcsummit_logo.png" />
     <Content Include="images\palestrantes\alexandre_tarifa.jpg" />
@@ -180,6 +186,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\MVCSummit\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\MVCSummit\Apoio.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

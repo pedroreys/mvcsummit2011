@@ -36,5 +36,9 @@ namespace mvcsummit2011.Controllers
         {
             return View();
         }
+        public  ActionResult Apoio()
+        {
+            return View();
+        }
     }
 }
