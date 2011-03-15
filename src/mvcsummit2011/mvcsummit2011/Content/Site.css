@@ -299,8 +299,8 @@ td.exibeDescricao span.oculta
 
 .inscricoes
 {
-    /*background:#009933;*/
-    background: #FF0000;
+    background:#009933;
+    /*background: #FF0000;*/
     color:#fff;
     padding:10px;
     font-size:32px;
